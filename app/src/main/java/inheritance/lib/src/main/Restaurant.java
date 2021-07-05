@@ -13,7 +13,6 @@ public class Restaurant extends Review {
 
     /**
      * constructor that takes the following params
-     *
      * @param body:                  Review Text
      * @param author:                Reviewer Name
      * @param starsNumberFromAuthor: Stars Number Given by the Reviewer
@@ -52,7 +51,6 @@ public class Restaurant extends Review {
     public void addReview(String body, String author, int starsNumberFromAuthor) {
         if (starsNumberFromAuthor < 0 || starsNumberFromAuthor > 5) {
             System.out.println("Sorry (*_*) "+starsNumberFromAuthor + " Stars Number Not valid --> it's should be between 0 and 5, So it ");
-//            starsNumberFromAuthor = this.starsNumber;
         }else {
             Review newReview = new Review(body, author, starsNumberFromAuthor);
             reviews.add(newReview);
