@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7357da1d-cc89-4899-a269-9ac9cccb8296" name="Default Changelist" comment="lab 03 new repo. ^_^">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/app.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7357da1d-cc89-4899-a269-9ac9cccb8296" name="Default Changelist" comment="lab 06">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +21,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lab03" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +44,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bitmap-transformer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../401-data-structures-and-algorithms" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
@@ -62,10 +58,8 @@
       <recent name="linter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.inheritance">
-    <configuration name="inheritance" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="inheritance.lib.src.main.app" />
-      <module name="java-fundamentals.app.main" />
+  <component name="RunManager" selected="Application.lenter">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,7 +72,7 @@
       </method>
     </configuration>
     <configuration name="lenter" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="linter.App" />
+      <option name="MAIN_CLASS_NAME" value="inheritance.lib.src.main.app" />
       <module name="java-fundamentals.app.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,7 +121,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.inheritance" />
+      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.lab01" />
       <item itemvalue="Application.lenter" />
       <item itemvalue="Gradle.AppTest" />
@@ -156,14 +150,7 @@
       <option name="project" value="LOCAL" />
       <updated>1625273250218</updated>
     </task>
-    <task id="LOCAL-00002" summary="lab 03 new repo. ^_^">
-      <created>1625275180503</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1625275180503</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
