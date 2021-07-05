@@ -13,6 +13,7 @@ public class Restaurant extends Review {
 
     /**
      * constructor that takes the following params
+     *
      * @param body:                  Review Text
      * @param author:                Reviewer Name
      * @param starsNumberFromAuthor: Stars Number Given by the Reviewer
@@ -30,9 +31,9 @@ public class Restaurant extends Review {
     /**
      * constructor that takes the following params
      *
-     * @param restaurantName:Restaurant Name
-     * @param starsNumber:Restaurant    Stars Number
-     * @param price:Price
+     * @param restaurantName: Restaurant Name
+     * @param starsNumber:    Restaurant Stars Number
+     * @param price:          Price
      */
     public Restaurant(String restaurantName, int starsNumber, double price) {
         this.restaurantName = restaurantName;
@@ -50,8 +51,8 @@ public class Restaurant extends Review {
      */
     public void addReview(String body, String author, int starsNumberFromAuthor) {
         if (starsNumberFromAuthor < 0 || starsNumberFromAuthor > 5) {
-            System.out.println("Sorry (*_*) "+starsNumberFromAuthor + " Stars Number Not valid --> it's should be between 0 and 5, So it ");
-        }else {
+            System.out.println("Sorry (*_*) " + starsNumberFromAuthor + " Stars Number Not valid --> it's should be between 0 and 5, So it ");
+        } else {
             Review newReview = new Review(body, author, starsNumberFromAuthor);
             reviews.add(newReview);
             this.starsNumber = (starsNumberFromAuthor + this.starsNumber) / 2;

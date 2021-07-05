@@ -46,6 +46,5 @@ public class app {
 
         // invoke toString() after reviews added
         System.out.println(restaurant1.toString());
-
     }
 }
