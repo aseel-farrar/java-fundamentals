@@ -4,48 +4,68 @@ public class app {
     public static void main(String[] args) {
 
         // create restaurant
-        Restaurant restaurant1 = new Restaurant("kebab wa koftah",4,50);
+        Restaurant restaurant1 = new Restaurant("kebab wa koftah", 4, 50);
 
         // invoke toString() before any reviews added
         System.out.println(restaurant1.toString());
 
-        System.out.println();
-
-        // print the restaurant1 stars number before the first review
-        System.out.println(restaurant1.getRestaurantName()+" Stars Number: "+restaurant1.getStarsNumber());
-
-        System.out.println();
-
-        // add 1st review & print the restaurant1 stars number
-        restaurant1.addReview("GOOD FOOD & GOOD PRICE ^_^","Aseel", 4);
-        System.out.println(restaurant1.getRestaurantName()+" Stars Number: "+restaurant1.getStarsNumber());
-
-        System.out.println();
-
-        // add 2nd review & print the restaurant1 stars number
-        restaurant1.addReview("not good at all","bulbul", 1);
-        System.out.println(restaurant1.getRestaurantName()+" Stars Number: "+restaurant1.getStarsNumber());
-
-        System.out.println();
-
-        // add 3rd review & print the restaurant1 stars number
-        restaurant1.addReview("best food ever","hamada", 5);
-        System.out.println(restaurant1.getRestaurantName()+" Stars Number: "+restaurant1.getStarsNumber());
-        System.out.println();
-
-        // add 4th review & print the restaurant1 stars number which is grater than 5
-        restaurant1.addReview("best food ever","hamada", 7);
-        System.out.println(restaurant1.getRestaurantName()+" Stars Number: "+restaurant1.getStarsNumber());
-        System.out.println();
-
-        // add 5th review & print the restaurant1 stars number which is less than 5
-        restaurant1.addReview("best food ever","hamada", -2);
-        System.out.println(restaurant1.getRestaurantName()+" Stars Number: "+restaurant1.getStarsNumber());
-
-        System.out.println();
+        // add some reviews
+        restaurant1.addReview("good food", "aseel", 2);
+        restaurant1.addReview("good food", "ahmad", 5);
+        restaurant1.addReview("good food", "moh", 5);
 
         // invoke toString() after reviews added
         System.out.println(restaurant1.toString());
+
+
+        System.out.println();
+        System.out.println();
+
+        // create shop
+        Shop shop = new Shop("Lucky", "toys store", 50);
+
+        // invoke toString() before any reviews added
+        System.out.println(shop.toString());
+
+        // add some reviews
+        shop.addReview("good toys", "aseel", 2);
+        shop.addReview("good food", "ahmad", 5);
+        shop.addReview("good food", "moh", 5);
+
+        // invoke toString() after reviews added
+        System.out.println(shop.toString());
+
+        System.out.println();
+        System.out.println();
+
+//        // create Theater
+        Theater theater = new Theater("galaxy");
+
+        // invoke toString() before any reviews added or movies
+        System.out.println(theater.toString());
+
+        // add movies
+        theater.addMovie("bad boys");
+        theater.addMovie("batman vs Superman");
+        theater.addMovie("The Fast");
+        theater.addMovie("transporter");
+        theater.addMovie("On the moon");
+
+        // add some reviews
+        theater.addReview("good toys", "aseel", 2);
+        theater.addReview("good food", "ahmad", 5);
+        theater.addReview("good food", "moh", 5);
+        theater.addReview("good food", "nadeen", 5, "batman vs Superman");
+
+        // invoke toString() after reviews added and movies
+        System.out.println(theater.toString());
+
+        //remove movies
+        theater.removeMovie("On the moon");
+        theater.removeMovie("The Fast");
+
+        // invoke toString() after remove movies
+        System.out.println(theater.toString());
 
     }
 }

@@ -1,6 +1,5 @@
 package inheritance.lib.src.main;
 
-import java.util.ArrayList;
 
 /**
  * Restaurant class
@@ -9,10 +8,10 @@ public class Restaurant extends Review {
     private String restaurantName;
     private int starsNumber;
     private double price;
-    private ArrayList<Review> reviews = new ArrayList<>();
 
     /**
      * constructor that takes the following params
+     *
      * @param body:                  Review Text
      * @param author:                Reviewer Name
      * @param starsNumberFromAuthor: Stars Number Given by the Reviewer
@@ -40,31 +39,15 @@ public class Restaurant extends Review {
         this.price = price;
     }
 
-    /**
-     * method that add reviews and calculate the new Stars number for the restaurant,
-     * and add the review to arrayList that used to contains the reviews
-     *
-     * @param body:                  Review Text
-     * @param author:                Reviewer Name
-     * @param starsNumberFromAuthor: Stars Number Given by the Reviewer
-     */
-    public void addReview(String body, String author, int starsNumberFromAuthor) {
-        if (starsNumberFromAuthor < 0 || starsNumberFromAuthor > 5) {
-            System.out.println("Sorry (*_*) "+starsNumberFromAuthor + " Stars Number Not valid --> it's should be between 0 and 5, So it ");
-        }else {
-            Review newReview = new Review(body, author, starsNumberFromAuthor);
-            reviews.add(newReview);
-            this.starsNumber = (starsNumberFromAuthor + this.starsNumber) / 2;
-        }
-    }
 
     /**
      * @return: the restaurant information and all the reviews for it
      */
     @Override
     public String toString() {
-        if (reviews.size() != 0) {
-            return new StringBuilder().append("Restaurant Name: \"").append(restaurantName).append("\"").append(",\n").append(restaurantName).append(" Stars Number: ").append(starsNumber).append(",\n").append("price: ").append(price).append(",\n").append(reviews.toString()).toString();
+        if (getReviews().size() != 0) {
+            return new StringBuilder().append("Restaurant Name: \"").append(restaurantName).append("\"").append(",\n").append(restaurantName).append(" Stars Number: ").append(starsNumber).append(",\n").append("price: ").append(price).append(",\n").append(" Users Rating: ").append(getRate()).append("\n").append("Users Reviews: ").append(getReviews().toString()).toString();
+
         } else {
             return "Restaurant Name: \"" + restaurantName + "\"" + ",\n" +
                     restaurantName + " Stars Number: " + starsNumber + ",\n" +
@@ -85,10 +68,6 @@ public class Restaurant extends Review {
 
     public double getPrice() {
         return price;
-    }
-
-    public ArrayList<Review> getReviews() {
-        return reviews;
     }
 
     public void setRestaurantName(String restaurantName) {
