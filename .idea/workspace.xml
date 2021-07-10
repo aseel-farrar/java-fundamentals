@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7357da1d-cc89-4899-a269-9ac9cccb8296" name="Default Changelist" comment="lab 07">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/basiclibrary/README.md" afterDir="false" />
+    <list default="true" id="7357da1d-cc89-4899-a269-9ac9cccb8296" name="Default Changelist" comment="lab 02: fix the error and made README file as asked">
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/inheritance/lib/src/main/ReviewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/basiclibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/inheritance/lib/src/main/ShopTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="inheritance" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,7 +62,7 @@
       <recent name="linter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Library">
+  <component name="RunManager" selected="Gradle.ReviewTest.addReview">
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basiclibrary.Library" />
       <module name="java-fundamentals.app.main" />
@@ -150,6 +150,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ReviewTest.addReview" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;inheritance.lib.src.main.ReviewTest.addReview&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.lab01" />
@@ -158,9 +179,11 @@
       <item itemvalue="Gradle.AppTest" />
       <item itemvalue="Gradle.AppTest.testLintMethod" />
       <item itemvalue="Application.Library" />
+      <item itemvalue="Gradle.ReviewTest.addReview" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ReviewTest.addReview" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.app" />
         <item itemvalue="Gradle.AppTest.testLintMethod" />
@@ -219,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625517213690</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lab 02: fix the error and made README file as asked">
+      <created>1625875704504</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625875704504</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +268,8 @@
     <MESSAGE value="lab 03 new repo. ^_^" />
     <MESSAGE value="lab 06" />
     <MESSAGE value="lab 07" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 07" />
+    <MESSAGE value="lab 02: fix the error and made README file as asked" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 02: fix the error and made README file as asked" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
