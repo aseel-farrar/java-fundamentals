@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7357da1d-cc89-4899-a269-9ac9cccb8296" name="Default Changelist" comment="lab 06">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/Theater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/inheritance/lib/src/main/ShopTest.java" afterDir="false" />
+    <list default="true" id="7357da1d-cc89-4899-a269-9ac9cccb8296" name="Default Changelist" comment="lab 07">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/basiclibrary/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/inheritance/lib/src/main/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/basiclibrary/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +62,20 @@
       <recent name="linter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.app">
+  <component name="RunManager" selected="Application.Library">
+    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.Library" />
+      <module name="java-fundamentals.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basiclibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,9 +157,11 @@
       <item itemvalue="Application.app" />
       <item itemvalue="Gradle.AppTest" />
       <item itemvalue="Gradle.AppTest.testLintMethod" />
+      <item itemvalue="Application.Library" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Library" />
         <item itemvalue="Application.app" />
         <item itemvalue="Gradle.AppTest.testLintMethod" />
         <item itemvalue="Gradle.AppTest" />
@@ -194,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625464775596</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lab 07">
+      <created>1625517010152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625517010152</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lab 07">
+      <created>1625517213690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625517213690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +237,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab 03 new repo. ^_^" />
     <MESSAGE value="lab 06" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 06" />
+    <MESSAGE value="lab 07" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
