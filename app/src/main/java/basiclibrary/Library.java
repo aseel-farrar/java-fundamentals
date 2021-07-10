@@ -11,21 +11,18 @@ public class Library {
     public static void main(String[] args) {
 
         // to test roll method
-        int[] rollsValues = roll(3);
-        for (int element : rollsValues) {
-            System.out.println(element);
-        }
+            System.out.println(roll(3));
 
-        // array for testing
+//        // array for testing
         int[] testArr = {1, 2, 3, 4, 5, 5};
-
-        // test containsDuplicates method
+//
+//        // test containsDuplicates method
         System.out.println(containsDuplicates(testArr));
-
-        //  test CalculateAverage method
+//
+//        //  test CalculateAverage method
         System.out.println(CalculateAverage(testArr));
-
-        //  test lowestAverage method
+//
+//        //  test lowestAverage method
         int[][] weeklyMonthTemperatures = {
                 {66, 64, 58, 65, 71, 57, 60},
                 {57, 65, 65, 70, 72, 65, 51},
@@ -35,18 +32,18 @@ public class Library {
 
         float[] lowestAverage = lowestAverage(weeklyMonthTemperatures);
         System.out.println(lowestAverage[0]);
-
-// Daily average temperatures for Seattle, October 1-28 2017
-//        int[][] weeklyMonthTemperatures = {
-//                {66, 64, 58, 65, 71, 57, 60},
-//                {57, 65, 65, 70, 72, 65, 51},
-//                {55, 54, 60, 53, 59, 57, 61},
-//                {65, 56, 55, 52, 55, 62, 57}
-//        };
-
+//
+//// Daily average temperatures for Seattle, October 1-28 2017
+////        int[][] weeklyMonthTemperatures = {
+////                {66, 64, 58, 65, 71, 57, 60},
+////                {57, 65, 65, 70, 72, 65, 51},
+////                {55, 54, 60, 53, 59, 57, 61},
+////                {65, 56, 55, 52, 55, 62, 57}
+////        };
+//
         analyzingWeatherData(weeklyMonthTemperatures);
-
-        // within your main method...
+//
+//        // within your main method...
         List<String> votes = new ArrayList<>();
         votes.add("Bush");
         votes.add("Bush");
@@ -66,12 +63,12 @@ public class Library {
      * @param rollCount: number of rolls
      * @return: an array containing the rolls values
      */
-    public static int[] roll(int rollCount) {
-        int[] rollsValues = new int[rollCount];
+    public static ArrayList<Integer> roll(int rollCount) {
+        ArrayList<Integer> rollsValues= new ArrayList<>();
         int min = 1;
         int max = 6;
-        for (int i = 0; i < rollsValues.length; i++) {
-            rollsValues[i] = (int) (Math.random() * ((max - min) + 1)) + min;
+        for (int i = 0; i < rollCount; i++) {
+        rollsValues.add((int) ((Math.random() * ((max - min) + 1)) + min));
         }
         return rollsValues;
     }
