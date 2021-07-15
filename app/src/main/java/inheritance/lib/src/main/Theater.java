@@ -11,7 +11,6 @@ public class Theater extends Review {
         this.name = name;
     }
 
-
     public void addMovie(String movieName) {
         allMovies.add(movieName);
     }
@@ -19,7 +18,6 @@ public class Theater extends Review {
     public void removeMovie(String movieName) {
         allMovies.remove(movieName);
     }
-
 
     public void addReview(String body, String author, int starsNumberFromAuthor, String movieName) {
         int total = 0;
@@ -42,11 +40,9 @@ public class Theater extends Review {
     public String toString() {
         if (getReviews().size() != 0) {
             return new StringBuilder().append("Theater Name: \"").append(name).append("\"").append(",\n").append(name).append(" All Movies: ").append(allMovies).append(",\n").append("Users Rating: ").append(getRate()).append("\n").append("Users Reviews: ").append(getReviews().toString()).toString() + theaterReviewsWitheMovies;
-
         } else {
             return "Theater Name='" + name + '\'' + "\n" +
                     ", All Movies: " + allMovies;
         }
-
     }
 }
